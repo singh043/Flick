@@ -26,19 +26,19 @@ The Movie Database API
 
 ## Screenshots, Preview
 
-![Screenshot 1](https://ibb.co/Btmx3vh)
+https://ibb.co/Btmx3vh
 
-![Screenshot 2](https://ibb.co/Dkd7BBC)
+https://ibb.co/Dkd7BBC
 
-![Screenshot 3](https://ibb.co/4sn9Zqj)
+https://ibb.co/4sn9Zqj
 
-![Screenshot 4](https://ibb.co/Rpbq1Z9)
+https://ibb.co/Rpbq1Z9
 
-![Screenshot 5](https://ibb.co/gjjNKpJ)
+https://ibb.co/gjjNKpJ
 
-![Screenshot 6](https://ibb.co/xqWjR6m)
+https://ibb.co/xqWjR6m
 
-![Screenshot 7](https://ibb.co/1f52qxB)
+https://ibb.co/1f52qxB
 
 ## How to clone this project
 
