@@ -26,7 +26,7 @@ The Movie Database API
 
 ## Screenshots, Preview
 
-##Homepage
+## Homepage
 
 ![1](https://github.com/singh043/Flick/assets/90082683/1a49b50f-5d05-469f-87e9-a1ccc90d6251)
 
