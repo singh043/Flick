@@ -4,7 +4,7 @@ Movie / TV Show Watching Website
 
 ## Live demo
 
-Official website: 
+Official website: https://theflick.netlify.app/
 
 ## Movie sources
 
