@@ -25,20 +25,20 @@ The Movie Database API
 - Skeleton loading, infinite scrolling.
 
 ## Screenshots, Preview
+![1](https://github.com/singh043/Flick/assets/90082683/1a49b50f-5d05-469f-87e9-a1ccc90d6251)
 
-https://ibb.co/Btmx3vh
+![2](https://github.com/singh043/Flick/assets/90082683/61043b7d-133c-443d-a15f-66766b13e423)
 
-https://ibb.co/Dkd7BBC
+![3](https://github.com/singh043/Flick/assets/90082683/020941d4-9af2-4a86-9757-da437c1b3008)
 
-https://ibb.co/4sn9Zqj
+![4](https://github.com/singh043/Flick/assets/90082683/e3ac6327-370e-46ac-a27f-d87a01c4e144)
 
-https://ibb.co/Rpbq1Z9
+![5](https://github.com/singh043/Flick/assets/90082683/0afd41b9-2ebe-4755-b063-680576333479)
 
-https://ibb.co/gjjNKpJ
+![6](https://github.com/singh043/Flick/assets/90082683/2fda17ac-4692-44cf-a887-e8e40668bbe0)
 
-https://ibb.co/xqWjR6m
+![7](https://github.com/singh043/Flick/assets/90082683/0937fcac-cb2b-4f04-9c75-e166f319d504)
 
-https://ibb.co/1f52qxB
 
 ## How to clone this project
 
