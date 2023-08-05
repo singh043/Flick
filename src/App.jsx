@@ -10,6 +10,7 @@ import MoviesListData from './pages/CollectionDetail/MovieCollectionDetail/Movie
 import SeasonData from "./pages/CollectionDetail/SeriesCollectionDetail/SeasonData/SeasonData";
 import SeasonsData from './pages/CollectionDetail/SeriesCollectionDetail/SeasonsData/SeasonsData';
 import { AppContext } from './components/context/Context';
+import PageNotFound from "./pages/404/PageNotFound";
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
                     <Route path="/collection/:id" element={<MoviesListData />}></Route>
                     <Route path="/tv/:id/:title/seasons" element={<SeasonsData />}></Route>
                     <Route path="/tv/:id/:title/season/:season_number" element={<SeasonData />}></Route>
-                    <Route path="*" element={<h1>Error Page</h1>}></Route>
+                    <Route path="*" element={<PageNotFound />} />
                   </Routes>
               <Footer />
             </BrowserRouter>
