@@ -22,7 +22,7 @@ function App() {
                   <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/search/:query" element={<Find />}></Route>
-                    <Route path="/:mediaType/:id/:name/*" element={<ContentDetails />}></Route>
+                    <Route path="/:mediaType/:id/:name" element={<ContentDetails />}></Route>
                     <Route path="/discover/:mediaType" element={<Explore />}></Route>
                     <Route path="/collection/:id/*" element={<MoviesListData />}></Route>
                     <Route path="/tv/:id/:title/seasons" element={<SeasonsData />}></Route>
