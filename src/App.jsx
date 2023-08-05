@@ -19,13 +19,13 @@ function App() {
             <BrowserRouter>
               <Header />
                   <Routes>
-                    <Route path="/*" element={<Home />} />
-                    <Route path="/search/:query/*" element={<Find />}></Route>
-                    <Route path="/:mediaType/:id/:name/*" element={<ContentDetails />}></Route>
-                    <Route path="/discover/:mediaType/*" element={<Explore />}></Route>
-                    <Route path="/collection/:id/*" element={<MoviesListData />}></Route>
-                    <Route path="/tv/:id/:title/seasons/*" element={<SeasonsData />}></Route>
-                    <Route path="/tv/:id/:title/season/:season_number/*" element={<SeasonData />}></Route>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/search/:query" element={<Find />}></Route>
+                    <Route path="/:mediaType/:id/:name" element={<ContentDetails />}></Route>
+                    <Route path="/discover/:mediaType" element={<Explore />}></Route>
+                    <Route path="/collection/:id" element={<MoviesListData />}></Route>
+                    <Route path="/tv/:id/:title/seasons" element={<SeasonsData />}></Route>
+                    <Route path="/tv/:id/:title/season/:season_number" element={<SeasonData />}></Route>
                     <Route path="*" element={<h1>Error Page</h1>}></Route>
                   </Routes>
               <Footer />
