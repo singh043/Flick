@@ -50,7 +50,7 @@ const HeroBanner = () => {
       <span className='movieTitle'
         onClick={() => {
           let title = movieName.split(': ').join('-').split(' ').join('-').split('--').join('').split(':').join('-').split('.-').join('-');
-          navigate(`/movie/${movieId}/${title}`);
+          navigate(openInNewTab(`/movie/${movieId}/${title}`));
         }}
       >{movieName}</span>
       <ContentWrapper>
