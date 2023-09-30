@@ -6,7 +6,7 @@ import { url } from "../../../utils/constants";
 import dayjs from 'dayjs';
 import CircleRating from '../../CircleRating/CircleRating';
 import Img from "../../lazyLoadImage/Img";
-import { isoLangs } from '../../../utils/constants';
+import { isoLangs, openInNewTab } from '../../../utils/constants';
 import Genres from '../../genres/Genres';
 
 const Card = ({ data, endpoint }) => {
@@ -28,7 +28,7 @@ const Card = ({ data, endpoint }) => {
       <div className='cardImg'
         onClick={() => {
           let title = ( data?.title || data?.name )?.split(': ').join('-').split(' ').join('-').split('--').join('').split(':').join('-').split('.-').join('-');
-          navigate(`/${data?.item || endpoint}/${data?.id}/${title}`);
+          navigate(openInNewTab(`/${data?.item || endpoint}/${data?.id}/${title}`));
         }}
       >
         <Img

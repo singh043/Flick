@@ -28,11 +28,13 @@
                 }
             }
             .name {
+                width: 125px;
                 font-size: 14px;
                 line-height: 20px;
                 font-weight: 600;
             }
             .character {
+                width: 125px;
                 font-size: 14px;
                 line-height: 20px;
                 opacity: 0.5;
@@ -98,10 +100,12 @@
                     margin-bottom: 25px;
                 }
                 .name {
+                    width: 175px;
                     font-size: 18px;
                     line-height: 24px;
                 }
                 .character {
+                    width: 175px;
                     font-size: 16px;
                     line-height: 24px;
                 }
