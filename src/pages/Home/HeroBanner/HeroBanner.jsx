@@ -3,7 +3,7 @@ import React,{ useState, useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import Img from '../../../components/lazyLoadImage/Img';
 import useFetch from '../../../hooks/useFetch';
-import { url } from '../../../utils/constants';
+import { url, openInNewTab } from '../../../utils/constants';
 import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
 
 const HeroBanner = () => {
