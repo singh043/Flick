@@ -15,7 +15,7 @@ const Footer = () => {
                 <li className='menuItems'>FAQ</li>
             </ul>
             <div className='infoText'>
-                <p>Copyright © 2023 Flick. All Rights Reserved</p>
+                <p>Copyright © 2024 Flick. All Rights Reserved</p>
                 <p>Disclaimer: This site Flick does not store any files on its server. All contents are provided by non-affiliated third parties.</p>
             </div>
             <div className='social-icons'>
