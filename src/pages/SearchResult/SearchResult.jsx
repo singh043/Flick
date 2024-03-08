@@ -21,7 +21,7 @@ const SearchResult = () => {
 
     const fetchInitialData = () => {
         setLoading(true);
-        fetchDataFromApi(`/search/${endpoint}?include_adult=false&query=${query}&page=1`).then(
+        fetchDataFromApi(`/search/${endpoint}?query=${query}&page=1`).then(
             (res) => {
                 setData(res);
                 setPageNum(2);
@@ -31,7 +31,7 @@ const SearchResult = () => {
     };
 
     const fetchNextPageData = () => {
-        fetchDataFromApi(`/search/multi?include_adult=false&query=${query}&page=${pageNum}`).then(
+        fetchDataFromApi(`/search/multi?query=${query}&page=${pageNum}`).then(
             (res) => {
                 if (data?.results) {
                     setData({
