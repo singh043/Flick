@@ -10,7 +10,6 @@ import Genres from "../genres/Genres";
 
 const MovieCard = ({ data, fromSearch, mediaType }) => {
     
-    
     const navigate = useNavigate();
 
     let lang = (code) => {
