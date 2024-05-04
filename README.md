@@ -62,6 +62,6 @@ You have to create an account on the website: https://www.themoviedb.org/ to get
 In that file, assign the TMBD TOKEN that you get from the previous step to a variable named REACT_APP_TMBD_TOKEN (it has to be this specific name).
 
 It looks like this:
-REACT_APP_TMBD_TOKEN = a8a6fa2f944128e971223235bc3cxxxxx
+REACT_APP_TMBD_TOKEN = xxxxxxxxx3235bc3cxxxxx
 
 ### 👉 If you like this project, give it a star ✨ and share 👨🏻‍💻 it to your friends 👈
